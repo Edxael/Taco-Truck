@@ -9,7 +9,7 @@ p{
 }
 
 .mtitle{
-    width:540px;
+    width:535px;
     height:75px;
     margin:0px auto;
     margin-bottom: 15px;
@@ -27,9 +27,16 @@ p{
 .txt1{
     /*border: 2px solid white;*/
     padding: 0 10px 0 10px;
-    width: 500px;
+    width: 517px;
     margin:0px auto;
     display: block;
+}
+
+.button1{
+    width: 200px;
+    height: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 .tb1{
@@ -57,7 +64,7 @@ input[type="checkbox"] {
 
 .ft1{
     margin: 0px auto;
-    width: 520px;
+    width: 535px;
 
     display: flex;
     justify-content: flex-start;
