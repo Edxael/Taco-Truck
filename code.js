@@ -45,3 +45,7 @@ function hour(){
 
     console.log(" ");
 }
+
+function rel(){
+    location.reload();
+}

@@ -39,6 +39,13 @@ p{
     box-shadow: 5px 5px 5px #888888;
 }
 
+.button2{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888888;
+}
+
 .tb1{
     margin:0px auto;
 }
@@ -64,7 +71,7 @@ input[type="checkbox"] {
 
 .ft1{
     margin: 0px auto;
-    width: 535px;
+    width: 537px;
 
     display: flex;
     justify-content: flex-start;
