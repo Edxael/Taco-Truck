@@ -1,4 +1,5 @@
 console.log("Hello To JS PayRoll Closures");
+console.log("");
 
 
 function payCheck(bonus, pxhr){
@@ -16,26 +17,30 @@ var hector = new payCheck(0,  8);
 
 
 
-// --- Code to control the Button and execution of fuctions ---
+
+
+
+// --- Code to control: Button, Display, and Functin Execution ---
 
 function hour(){
     console.log("Time Punch");
 
     if(document.getElementById('ele').checked){
-        elena();
-        console.log("Elena In");
-        var te = elena.total;
-        console.log(te);
+        var pay1 = elena();
+        document.getElementById("ele-d").innerHTML = pay1;
+        console.log("Elena: ", pay1);
     }
 
     if(document.getElementById('mar').checked){
-        maria();
-        console.log("Maria In");
+        var pay2 = maria();
+        document.getElementById("mar-d").innerHTML = pay2;
+        console.log("Maria: ", pay2);
     }
 
     if(document.getElementById('hec').checked){
-        hector();
-        console.log("Hector In");
+        var pay3 = hector();
+        document.getElementById("hec-d").innerHTML = pay3;
+        console.log("Hector: ", pay3);
     }
 
     console.log(" ");
